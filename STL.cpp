@@ -12,6 +12,6 @@ sort(arr,arr+4);
 for(int i = 0;i<4;i++)
 { cout<<arr[i]<<" "; }
 cout<<endl;
-//cout<<"Size arr : "<<sizeof(arr)<<endl;
+cout<<"Loc_9 : "<<(find(arr,arr+6,9) - arr)<<endl;
 return 0;
 }
